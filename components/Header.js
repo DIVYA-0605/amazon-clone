@@ -26,6 +26,7 @@ const items = useSelector(selectItems)
           onClick={()=>router.push('/')}
             src="https://links.papareact.com/f90"
             width={150}
+            alt=""
             height={40}
             objectFit="contain"
             className="cursor-pointer"

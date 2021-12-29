@@ -45,7 +45,7 @@ function CheckoutProduct({id,title,price,rating,description,category,image,hasPr
             </div>
             <p className="text-xs my-2 line-clamp-3">{description}</p>
             <div>
-                <span>{`${quantity} x ${Math.floor(price*45)} =`}</span>
+                <span>{`${quantity} x ${price*45} =`}</span>
                 <span> <Currency quantity={`${quantity*price*45}`} currency="INR"/></span>
             </div>
           
